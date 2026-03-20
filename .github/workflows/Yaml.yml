@@ -1,7 +1,7 @@
 name: Pipeline con Errores
 on:
-  pull_request:
-      branches: main
+  push:
+    branches: rama1
 
 jobs:
   build:
